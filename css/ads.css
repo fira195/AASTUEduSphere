@@ -19,6 +19,7 @@ body {
     overflow: scroll;
     height: 100vh;
     overflow-x: hidden;
+    margin-left: 320px;
 }
 .container {
     max-width: 1200px;
@@ -191,16 +192,16 @@ footer .socials a {
     font-size: 20px;
 }
 
-
-
 .sidebar {
-    width: 250px;
+    width: 300px;
     background-color: #ffffff;
     border-right: 1px solid #ddd;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: fixed;
+    height: 100vh;
 }
 
 .sidebar .logo {
@@ -216,6 +217,11 @@ footer .socials a {
 
 .sidebar nav ul li {
     margin: 10px 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 1px 10px;
+
 }
 
 .sidebar nav ul li a {
@@ -228,7 +234,7 @@ footer .socials a {
     border-radius: 5px;
 }
 
-.sidebar nav ul li a:hover, .sidebar nav ul li a.active {
+.sidebar nav ul li:hover, .sidebar nav ul li.active {
     background-color: #eef3ff;
     color: #4a90e2;
 }
@@ -244,10 +250,4 @@ footer .socials a {
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
-}
-.job-listings h4{
-    margin: 1rem;
-}
-.content{
-    width: 100%;
 }

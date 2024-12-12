@@ -1,5 +1,5 @@
 .sidebar {
-    width: 250px;
+    width: 300px;
     background-color: #ffffff;
     border-right: 1px solid #ddd;
     padding: 20px;
@@ -72,7 +72,7 @@ body {
 
 .mainSection{
     width: 100%;
-    margin-left: 250px;
+    margin-left: 300px;
 }
 
 /* Navbar */
@@ -348,13 +348,15 @@ footer button {
         .post-actions {
             margin-top: 15px;
             display: flex;
+
+
             gap: 10px;
         }
 
         .post-actions button {
             background: none;
             border: none;
-            color: #039BE5;
+            color: #6C63FF;
             cursor: pointer;
         }
 
@@ -393,7 +395,7 @@ footer button {
         .comment-actions button {
             background: none;
             border: none;
-            color: #039BE5;
+            color: #6C63FF;
             cursor: pointer;
         }
 
@@ -416,7 +418,7 @@ footer button {
         }
 
         .add-comment button {
-            background: #039BE5;
+            background: #6C63FF;
             color: #fff;
             padding: 10px 20px;
             border: none;
@@ -427,3 +429,4 @@ footer button {
         .add-comment button:hover {
             background: #0277BD;
         }
+
