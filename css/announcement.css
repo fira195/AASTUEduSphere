@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    
+    display: flex;
+}
+.mainsection{
+    width: 100%;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4a4a4a;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 1rem;
+}
+
+header nav ul li a.active {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url("images/UpcomingEvents.jpg"); 
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #4a90e2;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #3a7ac9;
+}
+
+.events-calendar {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.events-calendar h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.calendar {
+    margin: 0 auto;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.calendar th, .calendar td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.calendar th {
+    background-color: #f4f4f4;
+}
+
+.event-details {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+footer .newsletter input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .newsletter button:hover {
+    background-color: #3a7ac9;
+}
+
+footer .links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .links div {
+    margin: 10px;
+}
+
+footer .links div h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+}
+
+footer .links div ul {
+    list-style: none;
+}
+
+footer .links div ul li {
+    margin: 5px 0;
+}
+
+footer .links div ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 0.9rem;
+}
+
+footer .links div ul li a:hover {
+    color: #4a90e2;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #4a4a4a;
+}
+
+a:hover {
+    color: #4a90e2;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+}
+
+.sidebar nav ul li {
+    margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sidebar nav ul li a:hover, .sidebar nav ul li a.active {
+    background-color: #eef3ff;
+    color: #4a90e2;
+}
+
+.sidebar .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sidebar .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
